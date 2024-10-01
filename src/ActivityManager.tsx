@@ -25,4 +25,24 @@ function setResultAndFinish(result: resultType, extras: extrasType): void {
   }
 }
 
-export { setResultAndFinish };
+function returnAuthCode(
+  code: string,
+  state: string,
+  redirectUri: string
+): void {
+  if (Platform.OS === 'ios') {
+    Bridge.returnAuthCode(code, state, redirectUri);
+  }
+}
+
+function returnError(
+  redirectUri: string,
+  error: string,
+  errorDescription: string = ''
+): void {
+  if (Platform.OS === 'ios') {
+    Bridge.returnError(redirectUri, error, errorDescription);
+  }
+}
+
+export { setResultAndFinish, returnAuthCode, returnError };
