@@ -1,0 +1,1 @@
+{"version":3,"file":"ActivityManager.d.ts","sourceRoot":"","sources":["../../../../src/ActivityManager.tsx"],"names":[],"mappings":"AAmBA,KAAK,UAAU,GAAG,IAAI,GAAG,QAAQ,CAAC;AAClC,KAAK,UAAU,GAAG;IAAE,CAAC,GAAG,EAAE,MAAM,GAAG,MAAM,GAAG,MAAM,GAAG,OAAO,CAAA;CAAE,CAAC;AAC/D,iBAAS,kBAAkB,CAAC,MAAM,EAAE,UAAU,EAAE,MAAM,EAAE,UAAU,GAAG,IAAI,CAIxE;AAED,OAAO,EAAE,kBAAkB,EAAE,CAAC"}
