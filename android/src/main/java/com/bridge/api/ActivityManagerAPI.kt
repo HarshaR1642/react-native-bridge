@@ -37,7 +37,7 @@ class ActivityManagerAPI {
     val resultCode = when (result) {
       "ok" -> Activity.RESULT_OK
       "cancel" -> Activity.RESULT_CANCELED
-      else -> Activity.RESULT_OK
+      else -> -2
     }
 
     val intent = Intent()
